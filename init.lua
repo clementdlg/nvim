@@ -5,6 +5,7 @@ require 'core-lsp'
 
 -- [[ Plugin config ]]
 require 'plugins.minideps'
+require 'plugins.spec'
 require 'plugins.colorscheme'
 require 'plugins.statusline'
 require 'plugins.git'
