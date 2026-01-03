@@ -1,4 +1,16 @@
 local plugins = {
+  -- Treesitter
+  {
+    source = 'nvim-treesitter/nvim-treesitter',
+    checkout = 'master',
+    monitor  = 'main',
+    hooks = {
+      post_checkout = function()
+        vim.cmd('TSUpdate')
+      end,
+    },
+  },
+
   -- Colorscheme
   { source = 'folke/tokyonight.nvim' },
 
@@ -30,18 +42,6 @@ local plugins = {
 
   -- blink.cmp
   { source = 'saghen/blink.cmp' },
-
-  -- Treesitter
-  {
-    source = 'nvim-treesitter/nvim-treesitter',
-    checkout = 'master',
-    monitor  = 'main',
-    hooks = {
-      post_checkout = function()
-        vim.cmd('TSUpdate')
-      end,
-    },
-  },
 }
 
 for _, spec in ipairs(plugins) do
