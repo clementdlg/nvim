@@ -2,6 +2,7 @@
 require 'options'
 require 'keymaps'
 require 'core-lsp'
+require 'runcmd'
 
 -- [[ Plugin config ]]
 require 'plugins.minideps'

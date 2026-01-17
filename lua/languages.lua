@@ -45,15 +45,11 @@ M.servers = {
 		},
 	},
 
-	ansiblels = {
-		settings = {
-			ansible = {
-				validation = { enabled = false },
-			},
-		},
-	},
+	ansiblels = {},
 
-	docker_language_server = {},
+	-- docker_language_server = {},
+	dockerls = {},
+	-- docker_compose_language_service = {},
 }
 
 -- [[ 2 spaces indentation ]]
