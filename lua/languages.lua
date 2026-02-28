@@ -1,19 +1,19 @@
 local M = {}
 
--- [[ Treesitter ]]
-M.highlight_syntax = {
-	'bash',
-	'python',
-	'lua',
-	'c',
-	'html',
-	'yaml',
-	'json',
-	'markdown',
-	-- 'rust',
-	-- 'go',
-	-- 'terraform',
-}
+-- -- [[ Treesitter ]]
+-- M.highlight_syntax = {
+-- 	'bash',
+-- 	'python',
+-- 	'lua',
+-- 	'c',
+-- 	'html',
+-- 	'yaml',
+-- 	'json',
+-- 	'markdown',
+-- 	-- 'rust',
+-- 	-- 'go',
+-- 	-- 'terraform',
+-- }
 
 -- [[ LSP servers ]]
 M.servers = {
@@ -48,8 +48,8 @@ M.servers = {
 	ansiblels = {},
 
 	-- docker_language_server = {},
-	dockerls = {},
-	-- docker_compose_language_service = {},
+	docker_compose_language_service = {},
+	nixd = {},
 }
 
 -- [[ 2 spaces indentation ]]
