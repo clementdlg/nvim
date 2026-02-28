@@ -1,19 +1,19 @@
 local M = {}
 
--- -- [[ Treesitter ]]
--- M.highlight_syntax = {
--- 	'bash',
--- 	'python',
--- 	'lua',
--- 	'c',
--- 	'html',
--- 	'yaml',
--- 	'json',
--- 	'markdown',
--- 	-- 'rust',
--- 	-- 'go',
--- 	-- 'terraform',
--- }
+-- [[ Treesitter ]]
+M.highlight_syntax = {
+	'bash',
+	'python',
+	'lua',
+	'c',
+	'html',
+	'yaml',
+	'json',
+	'markdown',
+	-- 'rust',
+	-- 'go',
+	-- 'terraform',
+}
 
 -- [[ LSP servers ]]
 M.servers = {
